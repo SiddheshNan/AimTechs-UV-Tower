@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>UV-C Tower</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,  user-scalable=no"
+    />
+    <meta name="theme-color" content="#fff" />
+  </head>
+  <body>
+    <noscript>
+      <strong
+        >We're sorry but this application doesn't work properly without
+        JavaScript enabled. Please enable it to continue.
+      </strong>
+    </noscript>
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">UV-C Tower</h1>
+      </div>
+    </nav>
+
+    <div class="container">
+      <img src="./aimtechs.png" alt="aimtechs logo" class="aimtechslogo" />
+      <h2>
+        <span id="timeleft" style="visibility: hidden">N/A</span>
+      </h2>
+
+      <h2><span id="timerValue">5 min</span></h2>
+
+      <div class="rng-gp">
+        <div>
+          <input
+            type="range"
+            id="timerSlider"
+            min="5"
+            max="25"
+            value="5"
+            step="5"
+            class="sliderrange"
+          />
+        </div>
+        <div class="flex justify-between mt-2 text-xs text-gray-300">
+          <span class="w-8 text-left">5</span>
+          <span class="w-8 text-center">10</span>
+          <span class="w-8 text-center">15</span>
+          <span class="w-8 text-center">20</span>
+          <span class="w-8 text-right">25</span>
+        </div>
+      </div>
+
+      <label class="switch switch-gp">
+        <input type="checkbox" id="output" />
+        <span class="slider round"></span>
+      </label>
+
+      <h3>Note: Select Time as Per Room Size.<br />Example: 10x10 = 10min.</h3>
+      <img
+        src="./makeinindia.png"
+        alt="make in india"
+        class="makeinindialogo"
+      />
+    </div>
+    <div class="footer2">
+      <p >
+        Visit us at : 
+        <a
+          href="https://aimtechs.co.in"
+          rel="noopener noreferrer"
+          target="_blank"
+          >www.aimtechs.co.in</a
+        >
+      </p>
+    </div>
+    <script src="../src/main.js"></script>
+  </body>
+</html>
